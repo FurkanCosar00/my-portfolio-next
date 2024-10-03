@@ -8,7 +8,7 @@ import Footer from "/app/components/footer/page.jsx"
 export default function Home() {
   return (
   <>
-    {/* <Banner /> */}
+    <Banner /> 
     {/* <AboutMe /> */}
     {/* <Skills /> */}
     {/* <Works /> */}
