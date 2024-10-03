@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 390px;
-    margin: 0 auto;
+    background-color: #1A1E23;
     align-items: center;
     padding: 24px 0px;
     border-top: 1px solid #43454D;
@@ -18,6 +17,7 @@
 
     .footer-texts {
         display: flex;
+        width: 342px;
         flex-wrap: wrap;
         list-style: none;
         gap: 32px;
