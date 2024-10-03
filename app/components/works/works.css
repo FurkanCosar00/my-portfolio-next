@@ -1,0 +1,64 @@
+.works {
+    background-image: url(/images/works/background.png);
+    padding: 64px 0px;
+    
+    .works-title {
+        width: 342px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 64px;
+
+        h1 {
+            color: #12F7D6;
+            border-bottom: 2px solid #12F7D6;
+            width: 183px;
+            margin:  0 auto;
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            font-size: 64px;
+            font-weight: 400;
+            line-height: 72px;
+            
+        }
+
+        p {
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            font-family: "IBM Plex Mono", monospace; 
+        }
+    }
+
+    .works-link {
+        width: 297px;
+        height: 196px;
+        margin: 0 auto;
+        display: flex;
+        gap: 8px;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding: 20px;
+
+        background-image: url(/images/works/works-content.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px 5px;
+
+
+        img {
+            padding-top: 8px;
+            width: 20px;
+        }
+
+        a {
+            color: #12F7D6;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            padding-bottom: 4px;
+            text-decoration: none;
+            border-bottom: 2px solid #FFFFFF;
+        }
+    }
+}

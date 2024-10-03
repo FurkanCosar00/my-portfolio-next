@@ -11,7 +11,7 @@ export default function Home() {
     <Banner /> 
     <AboutMe />
     <Skills />
-    {/* <Works /> */}
+    <Works />
     {/* <ContactUs /> */}
   </>
   );
