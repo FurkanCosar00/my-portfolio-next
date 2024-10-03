@@ -9,7 +9,7 @@ export default function Home() {
   return (
   <>
     <Banner /> 
-    {/* <AboutMe /> */}
+    <AboutMe />
     {/* <Skills /> */}
     {/* <Works /> */}
     {/* <ContactUs /> */}
