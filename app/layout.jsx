@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Link from "next/link";
+import Header from "/app/components/header/page.jsx"
 
 export const metadata = {
   title: "Portfolio Page",
@@ -12,10 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={``}>
         <header className="header">
-          <ul>
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/projects">Projects</Link></li>
-          </ul>
+          <Header />
         </header>
 
         <div className="container">
