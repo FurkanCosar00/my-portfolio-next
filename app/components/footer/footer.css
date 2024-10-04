@@ -54,4 +54,13 @@
             justify-content: space-between;
         }
     }
- }
+}
+
+@media( width >= 768px) {
+    .footer {
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 48px;
+    }
+}

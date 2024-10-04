@@ -143,3 +143,21 @@
         }
     }
 }
+
+@media( width >= 1280px) {
+    .skills {
+        padding: 128px 0px;
+
+        .development-cards {
+            width: 720px;
+            gap: 32px;
+            justify-content: space-between;
+        }
+
+        .programming-languages {
+            width: 960px;
+            gap: 0;
+            justify-content: space-between;
+        }
+    }
+}

@@ -137,3 +137,9 @@
         }
     } 
 }
+
+@media( width >= 768px) {
+    .contact-us { 
+        padding: 128px 0px;
+     } 
+ }

@@ -73,3 +73,13 @@
         }
     }
 }
+
+@media( width >= 1280px) {
+    .about-me {
+        padding: 128px 0px;
+
+        .about-me-paragraph {
+            width: 880px;
+        }
+    }
+}

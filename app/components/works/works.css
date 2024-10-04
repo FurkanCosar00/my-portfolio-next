@@ -88,3 +88,23 @@
         }
     }
 }
+
+@media( width >= 768px) {
+    .works {
+        padding: 128px 0px;
+        .works-link {
+            width: 650px;
+            height: 432px;
+            padding: 45px;
+            gap: 12px;
+    
+            img {
+                padding-top: 20px;
+            }
+    
+            a {
+                font-size: 28px;
+            }
+        }
+    }
+}

@@ -232,5 +232,36 @@
             }
         }
     }
+}
+
+@media( width >= 1280px) {
+    .banner {
+        width: 1024px;
+        padding: 64px 32px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 0px;
+        align-items: center;
+        justify-content: space-between;
+
+        .banner-title {
+            color: #98FAEC;
+            display: block;
+            width: 1024px;
+            font-size: 117px;
+            font-weight: 400;
+            line-height: 134px;
+            text-align: center;
+        }
+
+        .banner-texts {
+            width: 680px;
+        }
+        
+        .experiences {
+            margin: 0;
+        }
+    }
 
 }
