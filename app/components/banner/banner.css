@@ -96,18 +96,24 @@
             color: #292F36;
             background-color: #FFFFFF;
             display: flex;
-            width: 227px;
             gap: 16px;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            padding: 16px 32px;
-            border: none;
+            text-decoration: none;
+            padding: 16px;
             border-radius: 32px;
             font-size: 20px;
             font-weight: 400;
             line-height: 24px;
-            font-family: "Ubuntu", sans-serif; 
+            font-family: "Ubuntu", sans-serif;
+            width: 200px;
+            transition: 0.25s;
+        }
 
+        .banner-cv-button:hover, .banner-cv-button:focus {
+            box-shadow: inset 143px 0 0 0 #12F7D6;
+            border-color: #66c887;
+            color: #FFFFFF;
         }
     }
 

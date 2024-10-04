@@ -89,22 +89,52 @@
 
         .language-item:nth-child(1) {
             color: #E54F26;
+
+            img:hover {
+                box-shadow: 0px 0px 70px #E54F26;
+                border-radius: 50%;
+                transition: box-shadow 0.3s ease;
+            }
         }
 
         .language-item:nth-child(2) {
             color: #0C73B8;
+
+            img:hover {
+                box-shadow: 0px 0px 50px #0C73B8;
+                border-radius: 50%;
+                transition: box-shadow 0.3s ease;
+            }
         }
 
         .language-item:nth-child(3) {
             color: #E7A020;
+
+            img:hover {
+                box-shadow: 0px 0px 50px #E7A020;
+                border-radius: 50%;
+                transition: box-shadow 0.3s ease;
+            }
         }
 
         .language-item:nth-child(4) {
             color: #28A9E0;
+
+            img:hover {
+                box-shadow: 0px 0px 50px #28A9E0;
+                border-radius: 50%;
+                transition: box-shadow 0.3s ease;
+            }
         }
 
         .language-item:nth-child(5) {
             color: #000000;
+
+            img:hover {
+                box-shadow: 0px 0px 50px #000000;
+                border-radius: 50%;
+                transition: box-shadow 0.3s ease;
+            }
         }
     }
 }

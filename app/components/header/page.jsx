@@ -1,15 +1,24 @@
+"use client"
 import "/app/components/header/header.css";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+  const Pathname = usePathname();
+
   return (
     <header className="header">
       <h1 className="header-logo"><span> &lt;C/&gt; </span>FurkanCosar</h1>
 
       <ul className="navigation">
-        <li className="nav-item"><Link href="/">Home</Link></li>
-        <li className="nav-item"><Link href="/projects">Projects</Link></li>
+        <li className={Pathname === "/" ? "active-link nav-item" : "nav-item"}>
+          <Link href="/">Home</Link>
+        </li>
+
+        <li className={Pathname === "/projects" ? "active-link nav-item" : "nav-item"}>
+          <Link href="/projects">Projects</Link>
+        </li>
       </ul>
 
       <ul className="header-social-links">
