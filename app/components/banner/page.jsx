@@ -39,7 +39,7 @@ export default function Banner() {
       <div className="banner-texts">
         <div className="title">
           <span>&lt;h1&gt;</span>
-          <h1>Hey<br />I’m <span>Furkan</span>,<br />Front-End Developer</h1>
+          <h1>Hey<br />I&rsquo;m <span>Furkan</span>,<br />Front-End Developer</h1>
           <span>&lt;/h1&gt;</span>
         </div>
 
