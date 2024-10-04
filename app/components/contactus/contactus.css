@@ -100,3 +100,40 @@
         }
     }
 }
+
+@media( width >= 768px) {
+   .contact-us {
+        .contact-us-title {
+            width: 640px;
+
+            h1 {
+                width: 228px;
+                margin: 0 auto;
+                margin-bottom: 16px;
+            }
+        }
+
+        .form-title {
+            width: 407px;
+            padding: 16px 0px;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 42px;
+        }
+        
+        .form-group {
+            width: 720px;
+            margin: 0 auto;
+            padding: 0px 64px;
+            gap: 64px 64px;
+    
+            .form-name input, .form-email input {
+                width: 264px;
+            }
+    
+            .form-message input {
+                width: 592px;
+            }
+        }
+    } 
+}

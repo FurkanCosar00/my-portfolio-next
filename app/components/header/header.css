@@ -31,9 +31,33 @@
             line-height: 20px;
             text-decoration: none;
         }
-        
-        .nav-item a:focus {
-            color: #12F7D6;
+    }
+
+    .header-social-links {
+        display: none;
+    }
+}
+
+@media( width >= 768px ) {
+    .header {
+        width: 704px;
+        padding: 30px 0px;
+
+        .header-logo {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            text-align: left;
+        }
+
+        .navigation {
+            gap: 32px;
+        }
+
+        .header-social-links {
+            display: flex;
+            list-style: none;
+            gap: 32px;
         }
     }
 }

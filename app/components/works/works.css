@@ -62,3 +62,29 @@
         }
     }
 }
+
+@media( width >= 768px) {
+    .works {
+        .works-title {
+            width: 640px;
+        }
+
+        .works-link {
+            width: 480px;
+            height: 320px;
+            padding: 30px;
+            background-position: 0px 0px;
+    
+            img {
+                padding-top: 20px;
+            }
+    
+            a {
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 32px;
+                text-align: left;
+            }
+        }
+    }
+}

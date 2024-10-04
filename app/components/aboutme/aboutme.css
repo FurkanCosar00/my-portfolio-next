@@ -55,3 +55,21 @@
         }
     }
 }
+
+@media( width >= 768px) {
+    .about-me {
+        gap: 64px;
+        
+        .about-me-title {
+            width: 367px;
+            font-size: 64px;
+            font-weight: 400;
+            line-height: 72px;
+        }
+
+        .about-me-paragraph {
+            width: 620px;
+            padding: 24px 40px;
+        }
+    }
+}

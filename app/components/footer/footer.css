@@ -46,3 +46,12 @@
         }
     }
 }
+
+@media( width >= 768px) {
+    .footer {
+        .footer-texts {
+            width: 621px;
+            justify-content: space-between;
+        }
+    }
+ }

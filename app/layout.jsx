@@ -5,14 +5,14 @@ import Footer from "/app/components/footer/page.jsx"
 
 const ibmPlexMono = IBM_Plex_Mono({
   subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700'], // Tüm ağırlıklar
-  style: ['normal', 'italic'], // Normal ve italik stiller
+  weight: ['100', '200', '300', '400', '500', '600', '700'],
+  style: ['normal', 'italic'],
 })
 
 const ubuntu = Ubuntu({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '700'], // Ubuntu için tüm ağırlıklar
-  style: ['normal', 'italic'], // Normal ve italik stiller
+  weight: ['300', '400', '500', '700'],
+  style: ['normal', 'italic'],
 })
 
 export const metadata = {

@@ -208,3 +208,29 @@
         }
     }
 }
+
+@media( width >= 768px) {
+    .banner {
+        width: 648px;
+        padding: 64px 0px;
+
+        .banner-texts {
+            width: 648px;
+    
+            .title {
+                h1 {
+                    font-size: 64px;
+                    font-weight: 400;
+                    line-height: 72px;
+                }
+    
+                span:nth-child(2) {
+                    font-size: 64px;
+                    font-weight: 400;
+                    line-height: 72px;
+                }
+            }
+        }
+    }
+
+}
