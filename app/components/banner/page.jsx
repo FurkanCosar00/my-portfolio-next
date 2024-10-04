@@ -45,7 +45,7 @@ export default function Banner() {
 
         <div className="paragraph">
           <span>&lt;p&gt;</span>
-          <p>I help businesses grow by crafting amazing web experiences. If you’re looking for a developer that likes to get stuff done,</p>
+          <p>I help businesses grow by crafting amazing web experiences. If you&rsquo;re looking for a developer that likes to get stuff done,</p>
           <span>&lt;/p&gt;</span>
         </div>
 

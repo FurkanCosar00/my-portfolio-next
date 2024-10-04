@@ -6,7 +6,7 @@ export default function Skills() {
     <div className="skills">
       <div className="skills-title">
         <h1>Skills</h1>
-        <p>I am striving to never stop learning and improving</p>
+        <p>I&apos;am striving to never stop learning and improving</p>
       </div>
 
       <div className="development-cards">

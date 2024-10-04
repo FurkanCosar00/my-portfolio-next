@@ -6,7 +6,7 @@ export default function ContactUs() {
     <div className="contact-us">
       <div className="contact-us-title">
         <h1>Contact</h1>
-        <p>I’m currently available for freelance work</p>
+        <p>I&rsquo;m currently available for freelance work</p>
       </div>
 
       <h1 className="form-title">Send Me A Message</h1>

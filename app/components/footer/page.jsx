@@ -11,7 +11,7 @@ export default function Footer() {
       </ul>
 
       <ul className='footer-texts'>
-        <li className="copyright">© 2023 SinanTokmak. All rights reserved.</li>
+        <li className="copyright">&copy; 2024 FurkanCosar. All rights reserved.</li>
         <li className="privacy">Privacy Policy</li>
         <li className="terms">Terms & Conditions</li>
       </ul>

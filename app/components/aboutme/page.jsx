@@ -22,7 +22,7 @@ export default function AboutMe() {
             that works. Striving to never
             stop learning and improving. <br /><br />
   
-            When I'm not coding, I am
+            When I&apos;m not coding, I am
             <span>playing games</span>, reading, or
             picking up some new hands-on
             art project like <span>photography</span> <br /><br />
