@@ -1,4 +1,5 @@
 import "/app/components/contactus/contactus.css";
+import Image from "next/image";
 
 export default function ContactUs() {
   return (
@@ -26,7 +27,7 @@ export default function ContactUs() {
           <input type="text" name='message' placeholder='Enter your needs'/>
         </label>
 
-        <button className="submit-button">Send Message<img src="/images/contactus/message.png" alt="" /></button>
+        <button className="submit-button">Send Message<Image src="/images/contactus/message.png" width={24} height={24} alt=""></Image></button>
       </form>
     </div>
   );

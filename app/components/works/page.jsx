@@ -1,5 +1,6 @@
-import Link from "next/link";
 import "/app/components/works/works.css";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Works() {
   return (
@@ -11,7 +12,7 @@ export default function Works() {
 
       <div className="works-link">
         <Link href={"/projects"}>View Projects</Link>
-        <img src="/images/works/cursor.png" alt="" />
+        <Image src="/images/works/cursor.png" width={24} height={24} alt=""></Image>
       </div>
     </div>
   );

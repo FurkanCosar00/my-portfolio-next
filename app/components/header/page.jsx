@@ -1,5 +1,6 @@
+import "/app/components/header/header.css";
 import Link from "next/link";
-import "/app/components/header/header.css"
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -12,9 +13,9 @@ export default function Header() {
       </ul>
 
       <ul className='header-social-links'>
-        <li><a target="_blank" href="https://www.instagram.com/luchhass/"><img src="/images/header/instagram.png" alt="Instagram" /></a></li>
-        <li><a target="_blank" href="http://discordapp.com/users/_luchhass"><img src="/images/header/discord.png" alt="Discord" /></a></li>
-        <li><a target="_blank" href="https://github.com/FurkanCosar00"><img src="/images/header/github.png" alt="GitHub" /></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/luchhass/"><Image src="/images/header/instagram.png" width={20} height={20} alt="Instagram"></Image></a></li>
+        <li><a target="_blank" href="http://discordapp.com/users/_luchhass"><Image src="/images/header/discord.png" width={20} height={20} alt="Discord"></Image></a></li>
+        <li><a target="_blank" href="https://github.com/FurkanCosar00"><Image src="/images/header/github.png" width={20} height={20} alt="GitHub"></Image></a></li>
       </ul>
     </header>
   );

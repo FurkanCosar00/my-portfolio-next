@@ -1,4 +1,5 @@
 import "/app/components/banner/banner.css";
+import Image from "next/image";
 
 export default function Banner() {
   return (
@@ -7,17 +8,17 @@ export default function Banner() {
 
       <div className="developer-info-card">
         <div className="profile-section">
-          <img src="/images/banner/profile-picture.png" alt="Profile Picture" />
+          <Image src="/images/banner/profile-picture.png" width={96} height={96} alt="Profile Picture"></Image>
           <h3>Furkan</h3>
           <p>Frontend Developer</p>
         </div>
 
         <div className="card-content">
           <ul className="personal-info">
-            <li><img src="/images/banner/mail.png" alt="Mail" />furkancosar2005@gmail.com</li>
-            <li><img src="/images/banner/map.png" alt="Location" />Turkey</li>
-            <li><img src="/images/banner/brief-case.png" alt="Job Type" />Full-time / Freelancer</li>
-            <li><img src="/images/banner/link.png" alt="Website" />www.furkancosar.com.tr</li>
+            <li><Image src="/images/banner/mail.png" width={14} height={14} alt="Mail"></Image>furkancosar2005@gmail.com</li>
+            <li><Image src="/images/banner/map.png" width={14} height={14} alt="Location"></Image>Turkey</li>
+            <li><Image src="/images/banner/brief-case.png" width={14} height={14} alt="Job Type"></Image>Full-time / Freelancer</li>
+            <li><Image src="/images/banner/link.png" width={14} height={14} alt="Website"></Image>www.furkancosar.com.tr</li>
           </ul>
 
           <ul className="skills-list">
@@ -31,7 +32,7 @@ export default function Banner() {
 
         <button className="banner-cv-button">
           Download CV
-          <img src="/images/banner/download.png" alt="Download Logo" />
+          <Image src="/images/banner/download.png" width={24} height={24} alt="Download Logo"></Image>
         </button>
       </div>
 
@@ -48,7 +49,7 @@ export default function Banner() {
           <span>&lt;/p&gt;</span>
         </div>
 
-        <h1 className='lets-talk-text'>let’s talk <img src="/images/banner/lets-talk.png" alt="Let's Talk" /></h1>
+        <h1 className='lets-talk-text'>let’s talk <Image src="/images/banner/lets-talk.png" width={40} height={40} alt="Let's Talk" /></h1>
       </div>
 
       <div className="experiences">

@@ -8,7 +8,7 @@ export default function AboutMe() {
       <div className="about-me-paragraph">
           <span>&lt;p&gt;</span>  
           <h2>Hello! </h2>
-            
+
           <p>
             My name is Furkan and I
             specialize in web developement

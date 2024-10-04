@@ -1,4 +1,5 @@
 import "/app/components/skills/skills.css";
+import Image from "next/image";
 
 export default function Skills() {
   return (
@@ -10,13 +11,13 @@ export default function Skills() {
 
       <div className="development-cards">
         <div className="dev-item">
-          <img src="/images/skills/desktop.png" alt="" />
+          <Image src="/images/skills/desktop.png" width={32} height={32} alt=""></Image>
           <h3>web developement</h3>
           <p>HTML·CSS·JS·REACT</p>
         </div>
 
         <div className="dev-item">
-          <img src="/images/skills/mobile.png" alt="" />
+          <Image src="/images/skills/mobile.png" width={32} height={32} alt=""></Image>
           <h3>web developement</h3>
           <p>HTML·CSS·JS·REACT</p>
         </div>
@@ -24,27 +25,27 @@ export default function Skills() {
 
       <div className="programming-languages">
         <div className="language-item">
-          <img src="/images/skills/html.png" alt="" />
+          <Image src="/images/skills/html.png" width={144} height={144} alt=""></Image>
           <p>HTML</p>
         </div>
 
         <div className="language-item">
-          <img src="/images/skills/css.png" alt="" />
+          <Image src="/images/skills/css.png" width={144} height={144} alt=""></Image>
           <p>CSS</p>
         </div>
 
         <div className="language-item">
-          <img src="/images/skills/js.png" alt="" />
+          <Image src="/images/skills/js.png" width={144} height={144} alt=""></Image>
           <p>JS</p>
         </div>
 
         <div className="language-item">
-          <img src="/images/skills/react.png" alt="" />
+          <Image src="/images/skills/react.png" width={144} height={144} alt=""></Image>
           <p>REACT</p>
         </div>
 
         <div className="language-item">
-          <img src="/images/skills/next.png" alt="" />
+          <Image src="/images/skills/next.png" width={144} height={144} alt=""></Image>
           <p>NEXT</p>
         </div>
       </div>
