@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Banner() {
   return (
     <div className="banner">
-      <h1 className='banner-title'>developer</h1>
+      <h1 className="banner-title">developer</h1>
 
       <div className="developer-info-card">
         <div className="profile-section">
@@ -49,7 +49,7 @@ export default function Banner() {
           <span>&lt;/p&gt;</span>
         </div>
 
-        <h1 className='lets-talk-text'>let’s talk <Image src="/images/banner/lets-talk.png" width={40} height={40} alt="Let's Talk" /></h1>
+        <h1 className="lets-talk-text">let&rsquo;s talk <Image src="/images/banner/lets-talk.png" width={40} height={40} alt="Lets Talk" /></h1>
       </div>
 
       <div className="experiences">

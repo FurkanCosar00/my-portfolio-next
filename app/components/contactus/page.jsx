@@ -14,17 +14,17 @@ export default function ContactUs() {
       <form action="" className="form-group">
         <label className="form-name">
           Your name *
-          <input type="text" name='name' placeholder='Enter your name'/>
+          <input type="text" name="name" placeholder="Enter your name"/>
         </label>
 
         <label className="form-email">
           Your email *
-          <input type="text" name='email' placeholder='Enter your email'/>
+          <input type="text" name="email" placeholder="Enter your email"/>
         </label>
 
         <label className="form-message">
           Your message * 
-          <input type="text" name='message' placeholder='Enter your needs'/>
+          <input type="text" name="message" placeholder="Enter your needs"/>
         </label>
 
         <button className="submit-button">Send Message<Image src="/images/contactus/message.png" width={24} height={24} alt=""></Image></button>
