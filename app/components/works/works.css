@@ -79,7 +79,7 @@
     }
 }
 
-@media( width >= 768px) {
+@media( width >= 1280px) {
     .works {
         padding: 128px 0px;
         .works-link {
