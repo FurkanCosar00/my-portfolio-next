@@ -25,27 +25,27 @@ export default function Skills() {
 
       <div className="programming-languages">
         <div className="language-item">
-          <Image src="/images/skills/html.png" width={144} height={144} alt=""></Image>
+          <Image src="/images/skills/html.png" width={112} height={112} alt=""></Image>
           <p>HTML</p>
         </div>
 
         <div className="language-item">
-          <Image src="/images/skills/css.png" width={144} height={144} alt=""></Image>
+          <Image src="/images/skills/css.png" width={112} height={112} alt=""></Image>
           <p>CSS</p>
         </div>
 
         <div className="language-item">
-          <Image src="/images/skills/js.png" width={144} height={144} alt=""></Image>
+          <Image src="/images/skills/js.png" width={112} height={112} alt=""></Image>
           <p>JS</p>
         </div>
 
         <div className="language-item">
-          <Image src="/images/skills/react.png" width={144} height={144} alt=""></Image>
+          <Image src="/images/skills/react.png" width={112} height={112} alt=""></Image>
           <p>REACT</p>
         </div>
 
         <div className="language-item">
-          <Image src="/images/skills/next.png" width={144} height={144} alt=""></Image>
+          <Image src="/images/skills/next.png" width={112} height={112} alt=""></Image>
           <p>NEXT</p>
         </div>
       </div>

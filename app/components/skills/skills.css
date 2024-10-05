@@ -4,7 +4,7 @@
     padding: 64px 0px;
 
     .skills-title {
-        width: 342px;
+        width: 350px;
         margin: 0 auto;
         text-align: center;
         margin-bottom: 64px;
@@ -74,10 +74,6 @@
         display: flex;
         flex-wrap: wrap;
         gap: 32px 64px;
-
-        img {
-            width: 112px;
-        }
 
         p {
             font-size: 32px;
@@ -169,6 +165,7 @@
     
             img {
                 width: 144px;
+                height: 144px;
             }
         }
     }
