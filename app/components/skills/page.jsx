@@ -12,13 +12,13 @@ export default function Skills() {
       <div className="development-cards">
         <div className="dev-item">
           <Image src="/images/skills/desktop.png" width={32} height={32} alt=""></Image>
-          <h3>web developement</h3>
+          <h3>Web developement</h3>
           <p>HTML·CSS·JS·REACT</p>
         </div>
 
         <div className="dev-item">
           <Image src="/images/skills/mobile.png" width={32} height={32} alt=""></Image>
-          <h3>web developement</h3>
+          <h3>App developement</h3>
           <p>HTML·CSS·JS·REACT</p>
         </div>
       </div>

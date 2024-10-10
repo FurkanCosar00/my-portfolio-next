@@ -2,6 +2,7 @@
     width: 390px;
     padding: 64px 35px;
     margin: 0px auto;
+    margin-top: 45px;
     display: flex;
     flex-direction: column;
     gap: 64px;
@@ -219,6 +220,7 @@
     .banner {
         width: 648px;
         padding: 64px 0px;
+        margin-top: 93px;
 
         .banner-texts {
             width: 648px;
@@ -250,6 +252,7 @@
         gap: 64px 0px;
         align-items: center;
         justify-content: space-between;
+        margin-top: 119px;
 
         .banner-title {
             color: #98FAEC;
