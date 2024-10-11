@@ -13,7 +13,7 @@ export default function Projects() {
             <Image className="thumbnail" src={x.thumbnail} width={342} height={200}></Image>
             <p className="title">{x.title}</p>
             <div className="overlay"></div>
-            <div className="button"><Link target="_blank" href={x.link}>siteye git</Link></div>
+            <div className="button"><Link target="_blank" href={x.link}>visit site</Link></div>
           </div>
         )}
       </div>

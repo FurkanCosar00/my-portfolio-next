@@ -30,7 +30,8 @@ export default function Banner() {
           </ul>
         </div>
 
-        <a target="_blank" href="/pdf/furkancosar.pdf" className="banner-cv-button">        
+        <a target="_blank" href="" className="banner-cv-button">        
+          {/* /pdf/furkancosar.pdf  pdf dosyasını geri çektim  */}
           Download CV
           <Image src="/images/banner/download.png" width={24} height={24} alt="Download Logo"></Image>
         </a>
