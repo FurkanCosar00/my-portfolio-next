@@ -14,7 +14,6 @@ export default function Works() {
         <Link href={"/projects"}>View Projects</Link>
         <Image src="/images/works/cursor.png" width={16} height={16} alt=""></Image>
       </div>
-
     </div>
   );
 }

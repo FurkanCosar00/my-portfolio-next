@@ -23,9 +23,9 @@ export default function Header() {
         </ul>
 
         <ul className="header-social-links">
-          <li><a target="_blank" href="https://www.instagram.com/luchhass/"><Image src="/images/header/instagram.png" width={20} height={20} alt="Instagram"></Image></a></li>
-          <li><a target="_blank" href="http://discordapp.com/users/_luchhass"><Image src="/images/header/discord.png" width={20} height={20} alt="Discord"></Image></a></li>
-          <li><a target="_blank" href="https://github.com/FurkanCosar00"><Image src="/images/header/github.png" width={20} height={20} alt="GitHub"></Image></a></li>
+          <li><Link  target="_blank" href="https://www.instagram.com/luchhass/"><Image src="/images/header/instagram.png" width={20} height={20} alt="Instagram"></Image></Link></li>
+          <li><Link  target="_blank" href="http://discordapp.com/users/_luchhass"><Image src="/images/header/discord.png" width={20} height={20} alt="Instagram"></Image></Link></li>
+          <li><Link  target="_blank" href="https://github.com/FurkanCosar00"><Image src="/images/header/github.png" width={20} height={20} alt="Instagram"></Image></Link></li>
         </ul>
       </div>
     </header>
