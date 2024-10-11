@@ -39,7 +39,6 @@
         align-items: flex-start;
         justify-content: flex-end;
         padding: 20px;
-
         background-image: url(/images/works/works-content.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -50,9 +49,30 @@
             font-size: 16px;
             font-weight: 400;
             line-height: 20px;
-            padding-bottom: 4px;
             text-decoration: none;
-            border-bottom: 2px solid #FFFFFF;
+            position: relative;
+            transition: transform 0.1s ease-in-out, color 0.3s ease;
+          }          
+    
+        a::before, a::after{
+            content: "";
+            position: absolute;
+            background-color: #ffffff;
+            transition: transform .5s;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            bottom: -5px;
+            transform: scaleX(0);
+            transform-origin: left;
+        }
+
+        a:hover::after{
+            transform: scaleX(1);
+        }
+
+        a:hover {
+            color: #FFFFFF;
         }
     }
 }

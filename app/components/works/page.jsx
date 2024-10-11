@@ -11,9 +11,10 @@ export default function Works() {
       </div>
 
       <div className="works-link">
-        <Link href={"/projects"}>View Projects</Link>
+        <Link href={"/projects"} className="link link1">View Projects</Link>
         <Image src="/images/works/cursor.png" width={16} height={16} alt=""></Image>
       </div>
+
     </div>
   );
 }
