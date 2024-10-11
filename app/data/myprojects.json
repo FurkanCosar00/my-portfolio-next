@@ -1,9 +1,149 @@
 [
     {
       "id": 1,
-      "title": "#",
-      "thumbnail": "#",
-      "languages": ["#", "#", "#", "#"],
-      "link": "#"
+      "title": "Amarachi",
+      "thumbnail": "/images/thumbnails/amarachi.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosaramarachinkechi.netlify.app"
+    },
+    {
+      "id": 2,
+      "title": "Biggy Burger",
+      "thumbnail": "/images/thumbnails/biggy-burger.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-biggyburger.netlify.app"
+    },
+    {
+      "id": 3,
+      "title": "Blog Page",
+      "thumbnail": "/images/thumbnails/blog-page.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-blogpage.netlify.app"
+    },
+    {
+      "id": 4,
+      "title": "Collabration",
+      "thumbnail": "/images/thumbnails/collabration.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-madeeasy.netlify.app"
+    },
+    {
+      "id": 5,
+      "title": "Dashboard",
+      "thumbnail": "/images/thumbnails/dashboard.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-fabrxadmin.netlify.app"
+    },
+    {
+      "id": 6,
+      "title": "Accordion",
+      "thumbnail": "/images/thumbnails/accordion.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-faqacordion.netlify.app"
+    },
+    {
+      "id": 7,
+      "title": "Feeling Lost",
+      "thumbnail": "/images/thumbnails/feeling-lost.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-feelinglost.netlify.app"
+    },
+    {
+      "id": 8,
+      "title": "Furniture",
+      "thumbnail": "/images/thumbnails/furniture.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-furniture.netlify.app"
+    },
+    {
+      "id": 9,
+      "title": "Foundations",
+      "thumbnail": "/images/thumbnails/foundations.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-foundations.netlify.app"
+    },
+    {
+      "id": 10,
+      "title": "Muze",
+      "thumbnail": "/images/thumbnails/muze.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-muze.netlify.app"
+    },
+    {
+      "id": 11,
+      "title": "Order Summary",
+      "thumbnail": "/images/thumbnails/order-summary.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-ordersummary.netlify.app"
+    },
+    {
+      "id": 12,
+      "title": "Shop Your Way",
+      "thumbnail": "/images/thumbnails/shop-your-way.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-shopyourway.netlify.app"
+    },
+    {
+      "id": 13,
+      "title": "Ecommerce",
+      "thumbnail": "/images/thumbnails/ecommerce.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-ecommerce.netlify.app"
+    },
+    {
+      "id": 14,
+      "title": "Audiophile",
+      "thumbnail": "/images/thumbnails/audiophile.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-audiophile.netlify.app"
+    },
+    {
+      "id": 15,
+      "title": "Lookscout",
+      "thumbnail": "/images/thumbnails/lookscout.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-bloglookscout.netlify.app"
+    },
+    {
+      "id": 16,
+      "title": "Dine",
+      "thumbnail": "/images/thumbnails/dine.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-dine.netlify.app"
+    },
+    {
+      "id": 17,
+      "title": "Single Page",
+      "thumbnail": "/images/thumbnails/single-page.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-singlepage.netlify.app"
+    },
+    {
+      "id": 18,
+      "title": "Designo",
+      "thumbnail": "/images/thumbnails/designo.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-designo.netlify.app"
+    },
+    {
+      "id": 19,
+      "title": "Help Support",
+      "thumbnail": "/images/thumbnails/help-support.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-helpsupport.netlify.app"
+    },
+    {
+      "id": 20,
+      "title": "My Portfolio",
+      "thumbnail": "/images/thumbnails/my-portfolio.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-portfolio.netlify.app"
+    },
+    {
+      "id": 21,
+      "title": "Landing Page",
+      "thumbnail": "/images/thumbnails/landing-page.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-landingpage.netlify.app"
     }
 ]
