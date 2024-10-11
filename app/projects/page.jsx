@@ -8,8 +8,8 @@ export default function Projects() {
     <div className="my-projects">
 
       <div className="projects">
-        {myprojects.reverse().map(x =>
-          <div className="projects-item">
+        {myprojects.reverse().map((x, i)=>
+          <div className="projects-item" key={i}>
             <Image className="thumbnail" src={x.thumbnail} width={342} height={200}></Image>
             <p className="title">{x.title}</p>
             <div className="overlay"></div>
