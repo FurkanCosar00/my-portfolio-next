@@ -4,7 +4,6 @@
     gap: 24px;
     align-items: center;
     padding: 24px 0px;
-    margin-top: 74px;
     border-top: 1px solid #43454D;
     font-family: "Ubuntu", sans-serif; 
 
@@ -59,8 +58,6 @@
 
 @media( width >= 768px) {
     .footer {
-        margin-top: 93px;
-
         .footer-texts {
             width: 621px;
             justify-content: space-between;
@@ -72,7 +69,6 @@
     .footer {
         flex-direction: row;
         margin: 0 auto;
-        margin-top: 119px;
         justify-content: center;
         gap: 48px;
     }

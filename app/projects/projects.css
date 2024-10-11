@@ -1,4 +1,6 @@
 .my-projects {
+    margin-top: 74px;
+
     .projects {
         width: 342px;
         margin: 32px auto;
@@ -89,6 +91,8 @@
 
 @media(width >= 768px) {
     .my-projects {
+        margin-top: 93px;
+
         .projects {
             width: 704px;
     
@@ -114,6 +118,8 @@
 
 @media(width >= 1280px) {
     .my-projects {
+        margin-top: 119px;
+
         .projects {
             width: 1024px;
             justify-content: left;
