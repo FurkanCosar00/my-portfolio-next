@@ -145,5 +145,103 @@
       "thumbnail": "/images/thumbnails/landing-page.png",
       "languages": ["html", "css"],
       "link": "https://furkancosar-landingpage.netlify.app"
+    },
+    {
+      "id": 22,
+      "title": "Devjobs",
+      "thumbnail": "/images/thumbnails/devjobs.png",
+      "languages": ["html", "css"],
+      "link": "https://furkancosar-devjobs.netlify.app"
+    },
+    {
+      "id": 23,
+      "title": "Calculator",
+      "thumbnail": "/images/thumbnails/calculator.png",
+      "languages": ["html", "css", "javascript"],
+      "link": "https://furkancosar-calculator.netlify.app"
+    },
+    {
+      "id": 24,
+      "title": "Tip Calculator",
+      "thumbnail": "/images/thumbnails/tip-calculator.png",
+      "languages": ["html", "css", "javascript"],
+      "link": "https://furkancosar-tipcalculator.netlify.app"
+    },
+    {
+      "id": 25,
+      "title": "Age Calculator",
+      "thumbnail": "/images/thumbnails/age-calculator.png",
+      "languages": ["html", "css", "javascript"],
+      "link": "https://furkancosar-agecalc.netlify.app"
+    },
+    {
+      "id": 26,
+      "title": "Advice Generator",
+      "thumbnail": "/images/thumbnails/advice-generator.png",
+      "languages": ["html", "css", "javascript"],
+      "link": "https://furkancosar-advice.netlify.app"
+    },
+    {
+      "id": 27,
+      "title": "Rock Paper",
+      "thumbnail": "/images/thumbnails/rock-paper.png",
+      "languages": ["html", "css", "javascript"],
+      "link": "https://furkancosar-rpm.netlify.app"
+    },
+    {
+      "id": 28,
+      "title": "Contact Form",
+      "thumbnail": "/images/thumbnails/contact-us.png",
+      "languages": ["html", "css", "javascript"],
+      "link": "https://furkancosar-contactform.netlify.app"
+    },
+    {
+      "id": 29,
+      "title": "Countries",
+      "thumbnail": "/images/thumbnails/countries.png",
+      "languages": ["html", "css", "javascript"],
+      "link": "https://furkancosar-restcountries.netlify.app"
+    },
+    {
+      "id": 30,
+      "title": "Pricing",
+      "thumbnail": "/images/thumbnails/pricing.png",
+      "languages": ["html", "css", "javascript"],
+      "link": "https://furkancosar-pricing.netlify.app"
+    },
+    {
+      "id": 31,
+      "title": "Tic Tac Toe",
+      "thumbnail": "/images/thumbnails/tic-tac-toe.png",
+      "languages": ["html", "css", "javascript", "react"],
+      "link": "https://furkancosartictactoe.netlify.app"
+    },
+    {
+      "id": 32,
+      "title": "Qulak Case",
+      "thumbnail": "/images/thumbnails/qulak-case.png",
+      "languages": ["html", "css", "javascript", "react"],
+      "link": "https://qulakcaseadmindashboard.netlify.app"
+    },
+    {
+      "id": 33,
+      "title": "Mortgage",
+      "thumbnail": "/images/thumbnails/mortgage.png",
+      "languages": ["html", "css", "javascript", "react"],
+      "link": "https://furkancosar-mortgagecalculator.netlify.app"
+    },
+    {
+      "id": 34,
+      "title": "Desserts",
+      "thumbnail": "/images/thumbnails/product-list.png",
+      "languages": ["html", "css", "javascript", "react"],
+      "link": "https://furkancosar-productwishlist.netlify.app"
+    },
+    {
+      "id": 35,
+      "title": "Job Listing",
+      "thumbnail": "/images/thumbnails/joblisting.png",
+      "languages": ["html", "css", "javascript", "react"],
+      "link": "https://furkancosar-joblisting.netlify.app"
     }
 ]
