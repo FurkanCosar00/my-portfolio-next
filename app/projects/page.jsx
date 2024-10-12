@@ -4,8 +4,18 @@ import "/app/projects/projects.css";
 import Link from "next/link";
 
 export default function Projects() {
+  const filterItem = [...new Set(myprojects.map(x => x.languages).flat())];
+  console.log(filterItem)
+
   return (
-    <div className="my-projects">
+    <div className="my-projects"> 
+      {/* 
+      <form action={{}} className="filtering">
+        {filterItem.map(x => 
+          <button>{x}</button>
+        )}
+      </form>
+      */}
 
       <div className="projects">
         {myprojects.reverse().map((x, i)=>
