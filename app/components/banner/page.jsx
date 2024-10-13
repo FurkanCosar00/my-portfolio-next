@@ -55,17 +55,17 @@ export default function Banner() {
 
       <div className="experiences">
         <div className="exp-item">
-          <h2>4</h2>
+          <h2>3</h2>
           <p>Programming Languages</p>
         </div>
 
         <div className="exp-item">
-          <h2>6</h2>
+          <h2>4</h2>
           <p>Development Tools</p>
         </div>
 
         <div className="exp-item">
-          <h2>8</h2>
+          <h2>1</h2>
           <p>Years of Experience</p>
         </div>
       </div>

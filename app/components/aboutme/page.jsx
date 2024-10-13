@@ -13,7 +13,7 @@ export default function AboutMe() {
             My name is Furkan and I
             specialize in web developement
             that utilizes <span>HTML</span>, <span>CSS</span>, <span>JS</span>,
-            and <span>REACT</span> etc. <br /><br />
+            <span> REACT</span> and <span>NEXT</span> etc. <br /><br />
   
             I am a highly motivated
             individual and eternal
@@ -22,10 +22,10 @@ export default function AboutMe() {
             that works. Striving to never
             stop learning and improving. <br /><br />
   
-            When I&apos;m not coding, I am
-            <span>playing games</span>, reading, or
-            picking up some new hands-on
-            art project like <span>photography</span> <br /><br />
+            I use <span>BOOTSTRAP</span> and <span>TAILWIND</span> for responsive 
+            design, <span>POSTMAN</span> for API testing, and <span>GITHUB </span> 
+            for version control, streamlining my web 
+            development projects. <br /><br />
   
             I like to have my perspective
             and belief systems challenged
