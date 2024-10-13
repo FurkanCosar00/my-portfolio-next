@@ -46,12 +46,8 @@
                 background-repeat: no-repeat;
                 transition: color 0.3s ease-in-out, background-size 0.3s ease-in-out;
             }
-            
-            .nav-item:hover {
-                background-size: 100% 100%;
-            }
-    
-           .active-link {
+
+            .active-link {
                 border-bottom: 1px solid #12F7D6;
            }
         }
@@ -87,6 +83,10 @@
     
             .navigation {
                 gap: 32px;
+
+                .nav-item:hover {
+                    background-size: 100% 100%;
+                }
             }
     
             .header-social-links {
