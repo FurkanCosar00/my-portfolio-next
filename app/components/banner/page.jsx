@@ -31,7 +31,8 @@ export default function Banner() {
           </ul>
         </div>
 
-        <Link target="_blank" href="/pdf/furkancosar.pdf" className="banner-cv-button">        
+        <Link target="_blank" href="" className="banner-cv-button">
+        {/* /pdf/furkancosar.pdf  */}
           Download CV
           <Image src="/images/banner/download.png" width={24} height={24} alt="Download Logo"></Image>
         </Link>
